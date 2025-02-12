@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(294deg, #000000, #122b94);
+    background: linear-gradient(97deg, #000000, #122b94);
 }
 
 header {
@@ -76,7 +76,7 @@ nav button.cta:hover {
     #product-capa {
         height: 500px;
     }
-    .product-card-apresentacao h1,h2{
+    .product-card h1,h2{
         font-size: 25px !important;
     }
 }
@@ -117,7 +117,7 @@ nav button.cta:hover {
     margin-bottom: 20px;
 }
 
-.product-card-apresentacao h1 {
+.product-card h1 {
     font-size: 2.5rem;
     color: #1a91fb;
     text-align: center;
@@ -139,7 +139,7 @@ nav button.cta:hover {
 }
 
 .product-card {
-    background-color: white;
+    background: linear-gradient(192deg, #000000, #122b94);;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
