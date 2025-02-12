@@ -22,10 +22,13 @@
     transition: 0.2s;
 }
 
-
+.header nav ul li i{
+    color: #000;
+    cursor: pointer;
+}
 .header nav ul li a:hover{
     color: white;
-    background-color: #122b94;
+    background-color: #4852cb;
 }
 
 /*responsive*/
@@ -42,7 +45,7 @@
 }
 
 .header .hamburguer{
-    background-color:#1e3a8a;
+    background-color:#000;
     position: relative;
     display: block;
     width: 30px;
@@ -54,7 +57,7 @@
 
 .header .hamburguer:before,
 .header .hamburguer:after{
-    background-color: #1e3a8a;
+    background-color: #000;
     content: "";
     display: block;
     width: 100%;
@@ -88,6 +91,13 @@
     top: 0;
 }
 
+.page-background{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  
+}
 
 
 @media(max-width:1440px){

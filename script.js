@@ -38,3 +38,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         imagination.style.backgroundPositionY = `${scrollPosition * 0.7}px`;
     });
 });
+
+
+let moon = document.querySelector(".fa-moon");
+let sun = document.querySelector(".fa-sun");
+
+moon.addEventListener("click", () => {
+    document.body.classList.add("dark-mode");
+});
+
+sun.addEventListener("click", () => {
+    document.body.classList.remove("dark-mode");
+});
