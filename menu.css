@@ -18,8 +18,8 @@
     font-size: 1rem;
     font-weight: 500;
     padding: 10px 30px;
-    border-radius: 50px;
-    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    transition: 0.2s;
 }
 
 

@@ -131,7 +131,7 @@ body {
 .product-card {
     /* background: linear-gradient(192deg, #000000, #122b94);
     ; */
-    border-radius: 8px;
+    /* border-radius: 8px; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     margin-bottom: 2rem;
