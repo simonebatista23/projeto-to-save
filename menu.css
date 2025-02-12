@@ -19,7 +19,7 @@
     font-weight: 500;
     padding: 10px 30px;
     border-radius: 50px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -42,7 +42,7 @@
 }
 
 .header .hamburguer{
-    background-color: #4852cb;
+    background-color:#1e3a8a;
     position: relative;
     display: block;
     width: 30px;
@@ -54,7 +54,7 @@
 
 .header .hamburguer:before,
 .header .hamburguer:after{
-    background-color: #4852cb;
+    background-color: #1e3a8a;
     content: "";
     display: block;
     width: 100%;
