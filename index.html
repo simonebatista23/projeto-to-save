@@ -6,19 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO SAVE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
-    <header>
-        <div></div>
-        <nav>
-            <button class="cta">Join Us</button>
-            <button class="cta">Features</button>
-            <button class="cta">About</button>
-            <button class="cta">Try Now</button>
-        </nav>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html">
+                <h1 class="logo"><span style="color: #4852cb;">to</span>save</h1>
+            </a>
+
+            <nav>
+                <input type="checkbox" id="menu-hamburguer" />
+
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <section id="product-capa">
         <div class="product-card-capa">
 
