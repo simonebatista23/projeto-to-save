@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(97deg, #000000, #122b94);
+    /* background: linear-gradient(88deg, #000000, #122b94); */
 }
 
 header {
@@ -78,6 +78,9 @@ nav button.cta:hover {
     }
     .product-card h1,h2{
         font-size: 25px !important;
+    }
+    #products{
+       padding: 4rem 0.5rem !important;
     }
 }
 
