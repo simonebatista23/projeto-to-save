@@ -399,7 +399,6 @@ cite {
 
 .dark-mode {
     background: linear-gradient(88deg, #000000, rgb(51, 90, 255));
-    color: white;
 }
 
 .dark-mode .logo,
@@ -407,8 +406,15 @@ cite {
     color: white;
 }
 
-.dark-mode p {
+.dark-mode .textos-apresentacao p, .dark-mode .product-card p, .dark-mode .imagination p ,.dark-mode .textos-apresentacao h1,.dark-mode .textos-apresentacao h2, .dark-mode .product-card h2, .dark-mode .imagination h2,.dark-mode .product-card h1{
     color: white;
+}
+.dark-mode footer {
+    background-color: transparent;
+}
+
+.dark-mode .feedbacks {
+    background-color: transparent;
 }
 .rede-social{
     display: flex;
