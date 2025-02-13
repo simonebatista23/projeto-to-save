@@ -374,7 +374,6 @@ cite {
 }
 
 .feedbacks {
-    background-color: rgb(51, 90, 255);
     padding: 30px 0;
     height: 100% !important;
     display: flex;
@@ -443,7 +442,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 1rem;
-    background-color: rgb(51, 90, 255);
+    background-color: #4852cb;
     color: #fff;
 }
 
